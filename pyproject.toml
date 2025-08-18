@@ -1,0 +1,19 @@
+[project]
+name = "eeg-foundation-challenge"
+version = "0.1.0"
+description = "EEG Foundation Challenge Project"
+requires-python = ">=3.13"
+dependencies = [
+    "braindecode>=1.1.0",
+    "ipykernel>=6.0.0",
+    "jupyter>=1.0.0",
+    "matplotlib>=3.10.5",
+    "mne>=1.10.1",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "seaborn>=0.13.2",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
